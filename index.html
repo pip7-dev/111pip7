@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0130)http://localhost:63342/Welcome/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99.html?_ijt=39ftrgnmv91vjr84enubgic5ki&_ij_reload=RELOAD_ON_SAVE -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Title</title>
+</head>
+<body>
+<div style="
+  background-color:#f1f1;
+  text-align:center;
+  padding:40px
+  ">
+   <img src="./我的Title_files/R-C.926bcc8920d5703abba724fdf4e8bfc5" alt="汪昕陈的个人网站" width="80px" height="80px">
+</div>
+
+<div style="
+  max-width=700px;
+  margin:30px auto;
+  paddingf:15px;
+  line-height:1.7;
+">
+  <p style="text-align:center;color:blue">我的荣誉</p>
+  <p style="text-align:center;color:purple">健美操团体赛第二；
+     第23届运动会男子800米第六 1500米第六；
+     志愿服务时长7小时</p>
+  <p>在当今社会，人工智能（AI）技术的应用正在显著改变人们的日常生活和工
+作方式。对于大学生而言，AI 不仅提供了一个全新的学习工具，还带来了新的
+挑战和机遇。数字技术的普及使得教育变得更加智能化、个性化，但也引发了关
+于学习效率、信息过载和数据收集等问题的关注。本文将探讨 AI 时代大学生如
+何应对这些挑战，并提出高效的高效学习方法。
+当前，随着数字技术的发展，大学生的学习环境变得更为复杂化。他们需要处理
+大量的在线课程、社交互动以及复杂的数据分析等任务。然而，AI 技术的应用
+为大学生提供了前所未有的工具和能力，帮助他们在学习过程中更高效地规划时
+间和资源分配。本文将从 AI 的背景、使用工具、使用过程、关键结果与呈现、
+AI 带来的帮助与价值、局限性与伦理思考以及团队分工与贡献度说明等方面进
+行探讨。</p>
+</div>
+<div style="
+  background-color:#f1f1;
+  text-align:center;
+  padding:40px;
+  font-size:12px;
+  ">
+  <p>汪昕陈的网站</p>
+  <a href="http://localhost:63342/Welcome/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99.html?_ijt=39ftrgnmv91vjr84enubgic5ki&amp;_ij_reload=RELOAD_ON_SAVE">友情链接</a>
+</div>
+
+
+<script>
+(function() {
+  var ws = new WebSocket('ws://' + window.location.host + 
+             '/jb-server-page?reloadMode=RELOAD_ON_SAVE&'+
+             'referrer=' + encodeURIComponent(window.location.pathname));
+  ws.onmessage = function (msg) {
+      if (msg.data === 'reload') {
+          window.location.reload();
+      }
+      if (msg.data.startsWith('update-css ')) {
+          var messageId = msg.data.substring(11);
+          var links = document.getElementsByTagName('link');
+          for (var i = 0; i < links.length; i++) {
+              var link = links[i];
+              if (link.rel !== 'stylesheet') continue;
+              var clonedLink = link.cloneNode(true);
+              var newHref = link.href.replace(/(&|\?)jbUpdateLinksId=\d+/, "$1jbUpdateLinksId=" + messageId);
+              if (newHref !== link.href) {
+                clonedLink.href = newHref;
+              }
+              else {
+                var indexOfQuest = newHref.indexOf('?');
+                if (indexOfQuest >= 0) {
+                  // to support ?foo#hash 
+                  clonedLink.href = newHref.substring(0, indexOfQuest + 1) + 'jbUpdateLinksId=' + messageId + '&' + 
+                                    newHref.substring(indexOfQuest + 1);
+                }
+                else {
+                  clonedLink.href += '?' + 'jbUpdateLinksId=' + messageId;
+                }
+              }
+              link.replaceWith(clonedLink);
+          }
+      }
+  };
+})();
+</script></body></html>
